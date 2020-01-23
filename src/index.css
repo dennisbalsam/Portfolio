@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Kameron');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,25 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.photo {
+    height: 700px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.info {
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Kameron', serif;
+    
+}
+
+.intro {
+  border-bottom: 1px solid black;
 }
