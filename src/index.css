@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Kameron');
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Amarante');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
 
@@ -40,18 +40,13 @@ code {
 }
 
 .description {
-  background-color: white;
   height: 330px;
   text-align: left;
   border-radius: 20px;
   font-size: 23px;
-  border: 1px solid #ccc;
-  padding: 10px 30px;
-  background: #e5e5e5;
   outline: none;  
-  box-shadow: inset 10px 10px 50px #d4d4d4;
   margin-bottom: 50px;
-  font-family: 'Amarante', cursive;
+  font-family: 'Montserrat', sans-serif;
   
 }
 
@@ -127,3 +122,19 @@ code {
   }
 }
 
+.blackbar {
+  background-color: black;
+  height: 5px;
+  width: 410px; 
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.aboutme {
+  display: inline-block;
+  font-size: 50px;
+}
+
+.name {
+  width: 100%;
+}

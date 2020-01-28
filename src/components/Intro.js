@@ -12,9 +12,15 @@ function Intro() {
                 <h2 className="position">Software Engineer</h2>
             </div>
         </div>
+        <div>
+            <div className="blackbar float-right"></div>
+            <h2 className="aboutme">ABOUT ME</h2>
+            <div className="blackbar float-left"></div>
+            <h5 className="mx-auto" >Allow me to introduce myself</h5>
+        </div>
         <div className="description">
         <p> 
-        i am a software engineer
+        Hi, nice to meet you, my name is Dennis.
         </p>
         </div>
         </React.Fragment>
