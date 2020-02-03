@@ -14,9 +14,9 @@ function Intro() {
         </div>
         <div>
             <div className="blackbar float-right"></div>
-            <h2 className="aboutme">ABOUT ME</h2>
+            <h2 className="aboutme"><span style={{color: 'rgb(4, 124, 34)'}}>ABOUT </span> ME</h2>
             <div className="blackbar float-left"></div>
-            <h5 className="mx-auto" >Allow me to introduce myself</h5>
+            <h5 className="mx-auto" >Allow me to (re)introduce myself</h5>
         </div>
         <div className="description">
         <p> 

@@ -68,15 +68,17 @@ code {
 
 /* Navbar designs */
 .my-navbar {
-  background-color: rgb(129, 129, 129);
+  background-color: rgb(4, 124, 34);
   font-family: 'Orbitron', sans-serif;
   box-shadow: 2px 2px 7px 7px #999;
+  
   
 }
 
 .mynavlinks {
   color: white !important;
   font-size: 20px !important;
+  
 }
 
 .myname {
@@ -133,8 +135,26 @@ code {
 .aboutme {
   display: inline-block;
   font-size: 50px;
+
 }
 
 .name {
   width: 100%;
+}
+
+.initials {
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 38px;
+  width: 90px;
+  padding-top: 15px;
+  position: absolute;
+  left: 650px; 
+  height: 90px;
+  margin-top: -15px;
+}
+
+.navbar {
+  padding: 0.2em! important;
 }
