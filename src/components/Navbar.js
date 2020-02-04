@@ -8,11 +8,13 @@ export default function NavBar() {
     <Navbar expand="lg" className="fixed-top my-navbar">
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav>
+        <Nav className="mx-auto">
             <Nav.Link className="mynavlinks" href="#intro">Intro</Nav.Link>
-            <div className="initials">DK</div>
-            
-          </Nav>          
+            <Nav.Link className="mynavlinks" href="#intro">Intro</Nav.Link>
+            <div className="initials mx-auto">DK</div> 
+            <Nav.Link className="mynavlinks" href="#intro">Hello</Nav.Link>
+            <Nav.Link className="mynavlinks" href="#intro">Hello</Nav.Link>
+        </Nav>
         </Navbar.Collapse>
 
         {/* <Navbar.Brand className="float-right myname navbar-brand">Dennis Krupitsky</Navbar.Brand> */}

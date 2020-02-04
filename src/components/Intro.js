@@ -5,7 +5,7 @@ import Photo from '../images/personal-image4.jpg'
 function Intro() {
     return (
         <React.Fragment>        
-        <div className="intro" id="intro">
+        <div className="intro col-sm-4 col-md-10 col-lg-12" id="intro">
             <img className="photo" src={Photo}></img>
             <div className="info">
                 <h1 className="namefont">Dennis Krupitsky</h1>
