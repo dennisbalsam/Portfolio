@@ -27,7 +27,6 @@ code {
     height: 600px;
     display: inline-block;
     margin-bottom: 30px;
-    margin-top: 30px;
     border-radius: 30px;
 }
 
@@ -39,25 +38,33 @@ code {
 }
 
 .description {
-  height: 330px;
+  height: 280px;
   text-align: left;
   border-radius: 20px;
-  font-size: 23px;
+  font-size: 20px;
   outline: none;  
   margin-bottom: 50px;
   font-family: 'Montserrat', sans-serif;
-  
+  padding: 25px;
+  box-shadow:  inset 5px 5px 10px rgb(4, 124, 34), 
+  inset -5px -5px 10px rgb(4, 124, 34);
+  background-color: rgb(250, 246, 246);
+  margin-top: 20px;
+  color: rgb(5, 5, 5);
+
 }
 
 .intro {
-  border-bottom: 1px solid black;
   margin-top: 80px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-right: auto;
   margin-left:auto;
 }
 
-
+.bio {
+  text-align: center;
+  
+}
 .namefont  {
   font-size: 60px;
   
@@ -92,6 +99,49 @@ code {
 .col-sm-4, .col-md-10, .col-lg-12 {
   width: auto !important;
 }
+.blackbar {
+  background-color: black;
+  height: 5px;
+  width: 410px; 
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.headers {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 800;
+}
+.message {
+  font-size: 19px;
+  margin-top: -5px;
+}
+.name {
+  width: 100%;
+}
+
+.initials {
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 38px;
+  width: 90px;
+  padding-top: 18px;
+  height: 90px;  
+}
+
+.navbar {
+  padding: 0.2em! important;
+}
+
+.navbar-expand .navbar-collapse {
+  display: inline!important;
+  flex-basis: auto;
+}
+
+.collapse:not(.show) {
+  display: contents;
+}
 
 
 /* for mobile-phone view */
@@ -114,8 +164,20 @@ code {
   *, ::after, ::before {
     box-sizing: initial!important;
   }
-  .col-sm-4 {
-    margin-left: 20px;
+  .headers {
+    display: inline-block;
+    font-size: 30px;
+  
+  }
+  .blackbar {
+    background-color: black;
+    height: 5px;
+    width: 100px; 
+    display: inline-block;
+    margin-top: 15px;
+  }
+  .description {
+    font-size: 20px;
   }
 }
 
@@ -143,45 +205,3 @@ code {
   }
 }
 
-.blackbar {
-  background-color: black;
-  height: 5px;
-  width: 410px; 
-  display: inline-block;
-  margin-top: 30px;
-}
-
-.aboutme {
-  display: inline-block;
-  font-size: 50px;
-
-}
-
-.name {
-  width: 100%;
-}
-
-.initials {
-  border-radius: 50%;
-  background-color: black;
-  color: white;
-  font-size: 38px;
-  width: 90px;
-  padding-top: 20px;
-  height: 90px;
-  
-  
-}
-
-.navbar {
-  padding: 0.2em! important;
-}
-
-.navbar-expand .navbar-collapse {
-  display: inline!important;
-  flex-basis: auto;
-}
-
-.collapse:not(.show) {
-  display: contents;
-}
