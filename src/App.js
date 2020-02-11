@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import Intro from './components/Intro'
 import Navbar from './components/Navbar'
-
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Navbar />
       <Container className="mb-5">
         <Intro />
+        <Skills /> 
       </Container>
     </div>
   );
