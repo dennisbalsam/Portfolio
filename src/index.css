@@ -143,7 +143,6 @@ code {
   display: contents;
 }
 
-
 /* for mobile-phone view */
 @media only screen and (max-width: 599px) {
   .photo {
