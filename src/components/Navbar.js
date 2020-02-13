@@ -17,7 +17,6 @@ export default function NavBar() {
         </Nav>
         </Navbar.Collapse>
 
-        {/* <Navbar.Brand className="float-right myname navbar-brand">Dennis Krupitsky</Navbar.Brand> */}
         
         
       </Navbar>
