@@ -6,7 +6,7 @@ function Intro() {
     return (
         <React.Fragment>   
         <div className="intro" id="intro">     
-            <div className="col-sm-4 col-md-10 col-lg-12">
+            <div className="col-sm-4 col-md-12 col-lg-12">
                 <img className="photo" src={Photo}></img>
                 <div className="info">
                     <h1 className="namefont">Dennis Krupitsky</h1>

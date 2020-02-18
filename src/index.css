@@ -61,6 +61,10 @@ code {
   margin-left:auto;
 }
 
+#skills {
+  margin-bottom: 50px;
+}
+
 .bio {
   text-align: center;
   
@@ -143,7 +147,6 @@ code {
   display: contents;
 }
 
-
 /* Skills Section */
 .language-circle {
   border-radius: 50%;
@@ -169,6 +172,10 @@ code {
   height: 20px;
   border-radius: 10px;
 }
+.navdesign {
+  margin-right:auto;
+  margin-left: auto;
+}
 
 /* for mobile-phone view */
 @media only screen and (max-width: 599px) {
@@ -177,6 +184,10 @@ code {
     margin-right: auto;
     margin-left: auto;
   }
+  .initials{
+    display: none;
+  }
+
   .namefont  {
     font-size: 40px;
   }
@@ -205,27 +216,70 @@ code {
   .description {
     font-size: 20px;
   }
+  .mobile-skills {
+    padding-top: 50px;
+  }
+  .description {
+    height: 700px;
+  }
+  .nav-design {
+    background-color: rgb(231, 227, 227) !important;
+    width: 100%;
+  }
+  .mynavlinks {
+    margin-left: 0 !important;
+  }
 }
 
 /* for mobile-tablet view */
-@media only screen and (min-width: 601px) and (max-width: 1100px) {
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
   .photo {
     height: 400px;
   }
   .namefont  {
     font-size: 50px;
   }
-  
+
   .position {
     font-size: 40px;
   }
   .myname {
     font-size: 25px !important;
   }
+  .blackbar {
+    background-color: black;
+    height: 5px;
+    width: 180px; 
+    display: inline-block;
+    margin-top: 30px;
+  }
+  .description {
+    height: 400px;
+  }
 }
 
+/* for ipadpro view */
+@media only screen and (min-width: 1024px) and (max-width: 1324px){
+  .photo {
+    margin-right: 120px;
+    height: 500px;
+  }
+  .blackbar {
+    background-color: black;
+    height: 5px;
+    width: 300px; 
+    display: inline-block;
+    margin-top: 30px;
+  }
+  .description {
+    height: 300px;
+  }
+
+}
+
+
 /* for computer view */
-@media only screen and (min-width: 1101px) {
+@media only screen and (min-width: 1325px) {
   .photo {
     margin-right: 120px;
   }
