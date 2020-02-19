@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Kameron');
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
 
 
 .App, html {
@@ -176,7 +176,41 @@ code {
   margin-right:auto;
   margin-left: auto;
 }
+/* Projects Section*/
 
+.projectbtn {
+  width: 200px;
+  background-color: rgb(4, 124, 34);
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid black;
+  margin: 10px;
+  height: 35px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+.project-details {
+  height: 500px;
+  text-align: left;
+  border-radius: 20px;
+  font-size: 20px;
+  outline: none;  
+  margin-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 25px;
+  box-shadow:  inset 5px 5px 10px rgb(4, 124, 34), 
+  inset -5px -5px 10px rgb(4, 124, 34);
+  background-color: rgb(250, 246, 246);
+  margin-top: 20px;
+  color: rgb(5, 5, 5);
+}
+
+.project-details > img {
+  width: 500px;
+  border-radius: 10px;
+  background-color:rgb(192, 185, 185);
+}
 /* for mobile-phone view */
 @media only screen and (max-width: 599px) {
   .photo {
