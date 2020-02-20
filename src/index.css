@@ -211,6 +211,15 @@ code {
   border-radius: 10px;
   background-color:rgb(192, 185, 185);
 }
+.project-details > p {
+  text-align: left !important;
+}
+
+.project-description {
+  width: 500px;
+  display: inline-block;
+  text-align: justify;
+}
 /* for mobile-phone view */
 @media only screen and (max-width: 599px) {
   .photo {
