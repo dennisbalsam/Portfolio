@@ -4,6 +4,8 @@ import SPORTSHUB from '../images/sportshub-gif.gif'
 import YELP from '../images/yelpAPP.gif'
 import MOVIES from '../images/movieApp.gif'
 import GIT from '../images/git.png'
+import MLPHOTOS from '../images/flowers.PNG'
+
 class Projects extends Component {
   constructor(props) {
     super(props)
@@ -48,9 +50,9 @@ class Projects extends Component {
           'gradient and stochastic gradient descent methods and different activation and loss functions, augmentation, pooling' +
            'and dropout. Models created use the Flowers data set from Kaggle, which are plotted and analyzed in order to see' +
            'evaluate the performance of the different applications and architectures using validation procedures. ' +
-           'There is no GIF as this was a research paper, Click the GitHub link if you would like to read it',
+           'There are sample results of the expirements, Click the GitHub link if you would like to read the research paper',
         title:'MACHINE LEARNING  PROJECT',
-        gif:'',
+        gif: MLPHOTOS,
         gitlink:'https://github.com/denniskrup/Deep-Learning-with-Python-Research-Project/blob/master/Thesis-Paper/thesis-paper.pdf'
     },
     {
@@ -100,7 +102,7 @@ class Projects extends Component {
                 <h1 className="text-center mb-2">{this.state.title}</h1>
                 <p className="text-center project-description"  >{this.state.description}</p>
                 <img style={{display: 'inline-block'}} className="float-right" alt="demo gif" src={this.state.gif}></img>
-                <a style={{position:'inherit', bottom: '0'}}target="_blank" href={this.state.gitlink}><input className="float-right" type="image" height="30px" height="70px" id="saveform" src={GIT} alt="Submit Form"/></a>
+                <a style={{position:'absolute', bottom: '20px', right:'0'}}target="_blank" href={this.state.gitlink}><input className="float-right" type="image" height="30px" height="70px" id="saveform" src={GIT} alt="Submit Form"/></a>
               </div>
               <div class="btn-group" role="group" aria-label="Basic example">
                 <button  type="button" className="projectbtn" onClick={() => this.handleClick(1)}> SPORTSHUB</button>
