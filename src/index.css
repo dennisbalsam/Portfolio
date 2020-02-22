@@ -87,17 +87,24 @@ code {
   height: 50px;
   
 }
+.navmargin {
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .mynavlinks {
   color: white !important;
   font-size: 20px !important;
-  width: 80px;
+  width: 150px;
   margin-top: 20px;
 }
 
 .myname {
   font-size: 22px !important;
   color: white !important;
+}
+.smallnav {
+  display:none;
 }
 
 .col-sm-4, .col-md-10, .col-lg-12 {
@@ -229,10 +236,6 @@ code {
     margin-right: auto;
     margin-left: auto;
   }
-  .initials{
-    display: none;
-  }
-
   .namefont  {
     font-size: 40px;
   }
@@ -271,9 +274,7 @@ code {
     background-color: rgb(231, 227, 227) !important;
     width: 100%;
   }
-  .mynavlinks {
-    margin-left: 0 !important;
-  }
+
   .projectbtn {
     width:  250px;
     background-color: rgb(4, 124, 34);
@@ -324,12 +325,47 @@ code {
     display: inline-block;
     text-align: justify;
   }
+  .large-nav {
+    display:none !important;
+  }
+  .smallnav { 
+    display: block;
+    color: white;
+
+  }
+  .smallnav > a {
+    color: black;
+    font-size: 20px;
+
+  }
+  .smallnav > a:hover {
+    color: black;
+  }
+  .dropdown-item {
+    width: initial!important;
+    width: 20px;
+  }
+  .initials {
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    width: 50px;
+    padding-top: 12px;
+    height: 40px;  
+    position: absolute;
+    top: 1px;
+    right: 30px;
+  }
 }
 
 /* for mobile-tablet view */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .photo {
     height: 400px;
+  }
+  .mobile-initials {
+    display: none;
   }
   .namefont  {
     font-size: 50px;
@@ -416,6 +452,9 @@ code {
     display: inline-block;
     margin-top: 30px;
   }
+  .mobile-initials {
+    display: none;
+  }
   .description {
     height: 300px;
   }
@@ -451,24 +490,15 @@ code {
     position: relative;
     width: 700px;
   }
-  .project-details > h1 {
-    font-size: 35px;
-  }
+
   .project-details > img {
     width: 320px;
     height: 250px;
     border-radius: 10px;
     background-color:rgb(192, 185, 185);
   }
-  .project-details > p {
-    text-align: left !important;
-  }
-  
-  .project-description {
-    width: 300px;
-    display: inline-block;
-    text-align: justify;
-  }
+
+
 
 }
 
@@ -478,5 +508,9 @@ code {
   .photo {
     margin-right: 120px;
   }
+  .mobile-initials {
+    display: none;
+  }
+  
 }
 
