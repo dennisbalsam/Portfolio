@@ -46,9 +46,8 @@ class Projects extends Component {
     {
         id:3,
         description: 'Project conducting research to propose and develop different solutions for classification problems' +
-         ' using Convolutional Neural Networks, by experimenting with different training approaches including batch training,' +
-          ' gradient and stochastic gradient descent methods and different activation and loss functions, augmentation, pooling' +
-           ' and dropout. Models created use the Flowers data set from Kaggle, which are plotted and analyzed in order to see' +
+         ' using Convolutional Neural Networks, by experimenting with different training approaches. Models created use the Flowers data set from Kaggle,' + 
+         'which are plotted and analyzed in order to see' +
            ' evaluate the performance of the different applications and architectures using validation procedures. ' +
            ' There are sample results of the experiments, Click the GitHub link if you would like to read the research paper.',
         title:'MACHINE LEARNING  PROJECT',
@@ -58,8 +57,8 @@ class Projects extends Component {
     {
         id:4,
         description: 'Program created to demonstrate Microsoft Azures Cognitive Services Translator Text API. The program is able to extract a users emails from the ' +
-        ' Outlook email application installed on their computer.. From there the program builds and sends'+ 
-        ' a request to the API, which returns the language the email is written in, a translated version of the email into English if it is in a foreign language, ' + 
+        ' Outlook email application installed on their computer. Then'+ 
+        ' a request to the API is made, which returns the language of the email, a translated version of the email in English, ' + 
         ' and a confidence score. I originally wrote it to emulate an automated job to extract and translate emails, so there is no demonstration of it in action currently' + 
         ' ,but I plan to create a UI for it soon, for users to be able to pick what emails to extract and translate.',
         title:'EMAIL TRANSLATE APP',
@@ -101,7 +100,7 @@ class Projects extends Component {
                 <div className="blackbar float-left"></div>
             </div>  
             <div>
-              <div className="project-details">
+              <div className="project-details mx-auto">
                 <h1 className="text-center mb-2">{this.state.title}</h1>
                 <p className="text-center project-description"  >{this.state.description}</p>
                 <img style={{display: 'inline-block'}} className="float-right" alt="demo gif" src={this.state.gif}></img>

@@ -274,6 +274,56 @@ code {
   .mynavlinks {
     margin-left: 0 !important;
   }
+  .projectbtn {
+    width:  250px;
+    background-color: rgb(4, 124, 34);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    height: 35px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+  }
+  .btn-group {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .project-details {
+    height: 1130px;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;  
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+    box-shadow:  inset 5px 5px 10px rgb(4, 124, 34), 
+    inset -5px -5px 10px rgb(4, 124, 34);
+    background-color: rgb(228, 225, 225);
+    margin-top: 20px;
+    color: rgb(5, 5, 5);
+    position: relative;
+    width: 300px;
+  }
+  .project-details > h1 {
+    font-size: 35px;
+  }
+  .project-details > img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    background-color:rgb(192, 185, 185);
+  }
+  .project-details > p {
+    text-align: center !important;
+  }
+  
+  .project-description {
+    width: 300px;
+    display: inline-block;
+    text-align: justify;
+  }
 }
 
 /* for mobile-tablet view */
@@ -301,6 +351,56 @@ code {
   .description {
     height: 400px;
   }
+  .projectbtn {
+    width:  250px;
+    background-color: rgb(4, 124, 34);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    height: 35px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+  }
+  .btn-group {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .project-details {
+    height: 800px;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;  
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+    box-shadow:  inset 5px 5px 10px rgb(4, 124, 34), 
+    inset -5px -5px 10px rgb(4, 124, 34);
+    background-color: rgb(228, 225, 225);
+    margin-top: 20px;
+    color: rgb(5, 5, 5);
+    position: relative;
+    width: 700px;
+  }
+  .project-details > h1 {
+    font-size: 35px;
+  }
+  .project-details > img {
+    width: 320px;
+    height: 250px;
+    border-radius: 10px;
+    background-color:rgb(192, 185, 185);
+  }
+  .project-details > p {
+    text-align: left !important;
+  }
+  
+  .project-description {
+    width: 300px;
+    display: inline-block;
+    text-align: justify;
+  }
 }
 
 /* for ipadpro view */
@@ -318,6 +418,56 @@ code {
   }
   .description {
     height: 300px;
+  }
+    .projectbtn {
+    width:  400px;
+    background-color: rgb(4, 124, 34);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    height: 40px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: white;
+    font-size: 25px;
+  }
+  .btn-group {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .project-details {
+    height: 800px;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;  
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+    box-shadow:  inset 5px 5px 10px rgb(4, 124, 34), 
+    inset -5px -5px 10px rgb(4, 124, 34);
+    background-color: rgb(228, 225, 225);
+    margin-top: 20px;
+    color: rgb(5, 5, 5);
+    position: relative;
+    width: 700px;
+  }
+  .project-details > h1 {
+    font-size: 35px;
+  }
+  .project-details > img {
+    width: 320px;
+    height: 250px;
+    border-radius: 10px;
+    background-color:rgb(192, 185, 185);
+  }
+  .project-details > p {
+    text-align: left !important;
+  }
+  
+  .project-description {
+    width: 300px;
+    display: inline-block;
+    text-align: justify;
   }
 
 }
