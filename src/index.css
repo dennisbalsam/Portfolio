@@ -201,7 +201,7 @@ code {
   padding: 25px;
   box-shadow:  inset 5px 5px 10px rgb(4, 124, 34), 
   inset -5px -5px 10px rgb(4, 124, 34);
-  background-color: rgb(250, 246, 246);
+  background-color: rgb(228, 225, 225);
   margin-top: 20px;
   color: rgb(5, 5, 5);
   position: relative;
@@ -209,6 +209,7 @@ code {
 
 .project-details > img {
   width: 500px;
+  height: 300px;
   border-radius: 10px;
   background-color:rgb(192, 185, 185);
 }

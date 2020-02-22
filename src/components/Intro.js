@@ -23,7 +23,7 @@ function Intro() {
                 <p className="bio"> 
                     My name is Dennis, I am an aspiring software engineer in New York City. I am currently working on acquiring my Bachelor of Science degree in Computer Science at the College of Staten Island. 
                     I have a passion for creating modern applications, in an attempt to become a full-stack developer. I am always looking to meet new people, learn new things, and
-                    make the most out of life. On a more personal note, I am a big fanatic of the NFL, MLB and NBA (my goal is to start sports podcast by the end of the year), and I also 
+                    make the most out of life. On a more personal note, I am a big fanatic of the NFL, MLB and NBA (my goal is to start a sports podcast by the end of the year), and I also 
                     really really love snowboarding. My time in college is coming to an end, and I am very excited to 
                     see what is in store for me in the real world.
                 </p>

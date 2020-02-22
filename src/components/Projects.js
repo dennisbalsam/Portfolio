@@ -5,7 +5,7 @@ import YELP from '../images/yelpAPP.gif'
 import MOVIES from '../images/movieApp.gif'
 import GIT from '../images/git.png'
 import MLPHOTOS from '../images/flowers.PNG'
-
+import OUTLOOK from '../images/outlooklogo.jpg'
 class Projects extends Component {
   constructor(props) {
     super(props)
@@ -23,21 +23,21 @@ class Projects extends Component {
     {
         id: 1,
         title:'SPORTSHUB',
-        description: 'Project creating a sports application utilizing the sportsdataio, firebase, and microsoft azure apis' +
-         'to create a sports betting application. The user is able to sign in to their google account, and from there they' +
-          'are able to view stats, highlights, standings, etc about multiple sports. They are able to see what upcoming games' +
-           'are scheduled by sport and allowed the oppurtunity to place a wager on that team. The user is able to deposit funds' +
-            'into their account, and also view bets they have placed.',
+        description: 'Project creating a sports application utilizing the Sportsdataio, Firebase, and Microsoft Azure apis' +
+         ' to create a sports betting application. The user is able to sign in to their Google account, and from there they' +
+          ' are able to view stats, highlights, standings, etc about multiple sports. They are able to see what upcoming games' +
+           ' are scheduled by sport and allowed the opportunity to place a wager on that team. The user is able to deposit funds' +
+            ' into their account, and also view bets they have placed.',
         gif: SPORTSHUB,
         gitlink:'https://github.com/denniskrup/sportshub'
     },
     {
         id:2,
-        description: 'Project utilizing the yelp, firebase and google MAPS API, to create a program with a modern, slick'+
-         'interface where the user signs in to their google account and can search for business using 3 search' +
-          'parameters, which provide a autocomplete function to show the results matching the criteria. The details' +
-           'page returns the selected business details, the maps location and an option to store it to the google users' +
-            'favorites.',
+        description: 'Project utilizing the Yelp, Firebase and Google MAPS API, to create a program with a modern, slick'+
+         ' interface where the user signs in to their Google account and can search for business using 3 search' +
+          ' parameters, which provides an autocomplete function to show the results matching the criteria. The details' +
+           ' page returns the selected business details, the maps location and an option to store it to the Google users' +
+            ' favorites.',
         title:'YELP APP',
         gif: YELP,
         gitlink:'https://github.com/denniskrup/yelpAPI-APP'
@@ -46,30 +46,34 @@ class Projects extends Component {
     {
         id:3,
         description: 'Project conducting research to propose and develop different solutions for classification problems' +
-         'using Convolutional Neural Networks, by experimenting with different training approaches including batch training,' +
-          'gradient and stochastic gradient descent methods and different activation and loss functions, augmentation, pooling' +
-           'and dropout. Models created use the Flowers data set from Kaggle, which are plotted and analyzed in order to see' +
-           'evaluate the performance of the different applications and architectures using validation procedures. ' +
-           'There are sample results of the expirements, Click the GitHub link if you would like to read the research paper',
+         ' using Convolutional Neural Networks, by experimenting with different training approaches including batch training,' +
+          ' gradient and stochastic gradient descent methods and different activation and loss functions, augmentation, pooling' +
+           ' and dropout. Models created use the Flowers data set from Kaggle, which are plotted and analyzed in order to see' +
+           ' evaluate the performance of the different applications and architectures using validation procedures. ' +
+           ' There are sample results of the experiments, Click the GitHub link if you would like to read the research paper.',
         title:'MACHINE LEARNING  PROJECT',
         gif: MLPHOTOS,
         gitlink:'https://github.com/denniskrup/Deep-Learning-with-Python-Research-Project/blob/master/Thesis-Paper/thesis-paper.pdf'
     },
     {
         id:4,
-        description: 'EMAIL TRANSLATE APP',
+        description: 'Program created to demonstrate Microsoft Azures Cognitive Services Translator Text API. The program is able to extract a users emails from the ' +
+        ' Outlook email application installed on their computer.. From there the program builds and sends'+ 
+        ' a request to the API, which returns the language the email is written in, a translated version of the email into English if it is in a foreign language, ' + 
+        ' and a confidence score. I originally wrote it to emulate an automated job to extract and translate emails, so there is no demonstration of it in action currently' + 
+        ' ,but I plan to create a UI for it soon, for users to be able to pick what emails to extract and translate.',
         title:'EMAIL TRANSLATE APP',
-        gif: 'location',
-        gitlink:'link'
+        gif: OUTLOOK,
+        gitlink:'https://github.com/denniskrup/TranslateOutlookEmail'
     },
     {
       id:5,
-      description: 'Project utilizing the OMDBApi ( a RESTful web service to obtain movie information), to create a small' +
-       'interface where the user can either view details about the pre-selected movie options, or do a search for details' +
-        'about the movie of their choice.',
+      description: ' Project utilizing the OMDBApi ( a RESTful web service to obtain movie information), to create a small' +
+       ' interface where the user can either view details about the pre-selected movie options, or do a search for details' +
+        ' about the movie of their choice.',
       title:'MOVIE APP',
       gif: MOVIES,
-      gitlink:'link'
+      gitlink:'https://github.com/denniskrup/MovieApp'
   }
   ]
   // toggle complete
