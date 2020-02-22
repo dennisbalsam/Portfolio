@@ -12,8 +12,8 @@ export default function NavBar() {
             <Nav.Link className="mynavlinks mr-4 ml-4" href="#intro">Intro</Nav.Link>
             <Nav.Link className="mynavlinks mr-5 ml-5" href="#skills">Skills</Nav.Link>
             <div className="initials mx-auto">DK</div> 
-            <Nav.Link className="mynavlinks ml-5 mr-5" href="#intro">Projects</Nav.Link>
-            <Nav.Link className="mynavlinks ml-5" href="#intro">Contacts</Nav.Link>
+            <Nav.Link className="mynavlinks ml-5 mr-5" href="#projects">Projects</Nav.Link>
+            <Nav.Link className="mynavlinks ml-5" href="#intro">Contact</Nav.Link>
 
         </Nav>
         </Navbar.Collapse>

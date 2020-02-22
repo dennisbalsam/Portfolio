@@ -94,9 +94,8 @@ class Projects extends Component {
 
   render() {
     return (
-        
-        <div className="Project">
-            <div id="projects">
+        <div className="mb-5" id="projects">
+            <div>
                 <div className="blackbar float-right"></div>
                 <h2 className="headers"><span style={{color: 'rgb(4, 124, 34)'}}>PRO</span>JECTS</h2>
                 <div className="blackbar float-left"></div>
@@ -106,7 +105,7 @@ class Projects extends Component {
                 <h1 className="text-center mb-2">{this.state.title}</h1>
                 <p className="text-center project-description"  >{this.state.description}</p>
                 <img style={{display: 'inline-block'}} className="float-right" alt="demo gif" src={this.state.gif}></img>
-                <a style={{position:'absolute', bottom: '20px', right:'0'}}target="_blank" href={this.state.gitlink}><input className="float-right" type="image" height="30px" height="70px" id="saveform" src={GIT} alt="Submit Form"/></a>
+                <a style={{position:'absolute', bottom: '20px', right:'0'}}target="_blank" href={this.state.gitlink}><input className="float-right" type="image" height="70px" src={GIT} alt="Open Link"/></a>
               </div>
               <div class="btn-group" role="group" aria-label="Basic example">
                 <button  type="button" className="projectbtn" onClick={() => this.handleClick(1)}> SPORTSHUB</button>

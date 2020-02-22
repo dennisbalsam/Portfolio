@@ -6,15 +6,17 @@ import Intro from './components/Intro'
 import Navbar from './components/Navbar'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Navbar />
       <Container className="mb-5">
         <Intro />
         <Skills /> 
         <Projects />
+        <Contact />
       </Container>
     </div>
   );
