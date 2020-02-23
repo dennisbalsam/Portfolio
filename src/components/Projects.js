@@ -108,10 +108,10 @@ class Projects extends Component {
               </div>
               <div class="btn-group" role="group" aria-label="Basic example">
                 <button  type="button" className="projectbtn" onClick={() => this.handleClick(1)}> SPORTSHUB</button>
-                <button  type="button" className="projectbtn" onClick={() => this.handleClick(2)}> YELP</button>
-                <button  type="button" className="projectbtn" onClick={() => this.handleClick(5)}> Movie APP</button>
-                <button  type="button" className="projectbtn" onClick={() => this.handleClick(3)}> Machine Learning</button>
-                <button  type="button" className="projectbtn" onClick={() => this.handleClick(4)}> Email Translate</button>
+                <button  type="button" className="projectbtn" onClick={() => this.handleClick(2)}> WISH DISH</button>
+                <button  type="button" className="projectbtn" onClick={() => this.handleClick(5)}> CINEMA GURU</button>
+                <button  type="button" className="projectbtn" onClick={() => this.handleClick(3)}> MACHINE LEARNING</button>
+                <button  type="button" className="projectbtn" onClick={() => this.handleClick(4)}> EMAIL TRANSLATE</button>
               </div>
             </div>
         </div>
