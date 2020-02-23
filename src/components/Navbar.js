@@ -14,7 +14,7 @@ export default function NavBar() {
             <Nav.Link className="mynavlinks" href="#skills">Skills</Nav.Link>
             <div className="initials mx-auto">DK</div> 
             <Nav.Link className="mynavlinks ml-2" href="#projects">Projects</Nav.Link>
-            <Nav.Link className="mynavlinks" href="#intro">Contact</Nav.Link>
+            <Nav.Link className="mynavlinks" href="#contact">Contact</Nav.Link>
         </Nav>
 
         {/* made mobile view a different nav item */}
@@ -23,7 +23,7 @@ export default function NavBar() {
                 <NavDropdown.Item href="#intro">Intro</NavDropdown.Item>
                 <NavDropdown.Item href="#skills">Skills</NavDropdown.Item>
                 <NavDropdown.Item href="#projects" >Projects</NavDropdown.Item>
-                <NavDropdown.Item  href="#intro">Contact</NavDropdown.Item>
+                <NavDropdown.Item  href="#contact">Contact</NavDropdown.Item>
             </NavDropdown>
             <div className="initials mobile-initials">DK</div> 
         </div>
