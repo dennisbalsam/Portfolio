@@ -365,6 +365,7 @@ code {
 
 /* for mobile-tablet view */
 @media only screen and (min-width: 601px) and (max-width: 1192px) {
+  /* photo */
   .photo {
     height: 500px;
     margin-right: 0px !important;
