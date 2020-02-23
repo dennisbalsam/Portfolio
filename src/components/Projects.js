@@ -38,7 +38,7 @@ class Projects extends Component {
           ' parameters, which provides an autocomplete function to show the results matching the criteria. The details' +
            ' page returns the selected business details, the maps location and an option to store it to the Google users' +
             ' favorites.',
-        title:'YELP APP',
+        title:'WISH DISH',
         gif: YELP,
         gitlink:'https://github.com/denniskrup/yelpAPI-APP'
         
@@ -70,7 +70,7 @@ class Projects extends Component {
       description: ' Project utilizing the OMDBApi ( a RESTful web service to obtain movie information), to create a small' +
        ' interface where the user can either view details about the pre-selected movie options, or do a search for details' +
         ' about the movie of their choice.',
-      title:'MOVIE APP',
+      title:'CINEMA GURU',
       gif: MOVIES,
       gitlink:'https://github.com/denniskrup/MovieApp'
   }
