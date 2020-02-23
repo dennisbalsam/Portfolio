@@ -364,10 +364,10 @@ code {
 }
 
 /* for mobile-tablet view */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 601px) and (max-width: 1192px) {
   .photo {
     height: 500px;
-    margin-right: 0px;
+    margin-right: 0px !important;
   }
   .mobile-initials {
     display: none;
@@ -445,7 +445,7 @@ code {
 }
 
 /* for ipadpro view */
-@media only screen and (min-width: 1024px) and (max-width: 1324px){
+@media only screen and (min-width: 1004px) and (max-width: 1307px){
   .photo {
     height: 500px;
     margin-right: 120px !important;
@@ -509,7 +509,7 @@ code {
 
 
 /* for computer view */
-@media only screen and (min-width: 1325px) {
+@media only screen and (min-width: 1308px) {
   .photo {
     margin-right: 120px;
   }
