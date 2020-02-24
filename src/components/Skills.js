@@ -31,79 +31,43 @@ export default function Skills() {
             <div className="row mt-5 mx-auto">
                 <div className="col mx-auto">
                         <img height="130px" width="130px" src={CPP}></img>
-                        <div className="progressbar mx-auto mt-5">
-                            <div style={{width: '95%'}}></div>
-                        </div>
                 </div>
                 <div className="col mx-auto">
                     <img height="130px" width="130px" src={CS}></img>
-                    <div className="progressbar mx-auto mt-5">
-                        <div style={{width: '80%'}}></div>
-                    </div>
                 </div>
                 <div className="col mx-auto mobile-skills">
                     <img height="130px" width="130px" src={PY}></img>
-                    <div className="progressbar mx-auto mt-5">
-                        <div style={{width: '80%'}}></div>
-                    </div>
                 </div>
                 <div className="col mx-auto mobile-skills">
                     <img height="130px" width="130px" src={EmberJS}></img>
-                    <div className="progressbar mx-auto mt-5">
-                        <div style={{width: '80%'}}></div>
-                    </div>
                 </div>
             </div>
             <div className="row mt-5 mx-auto">
                 <div className="col mx-auto">
                         <img height="130px" width="130px" src={ReactJS}></img>
-                        <div className="progressbar mx-auto mt-5">
-                            <div style={{width: '60%'}}></div>
-                        </div>
                 </div>
                 <div className="col mx-auto">
                     <img height="130px" width="130px" src={PHP}></img>
-                    <div className="progressbar mx-auto mt-5">
-                        <div style={{width: '60%'}}></div>
-                    </div>
                 </div>
                 <div className="col mx-auto mobile-skills">
                     <img height="130px" width="130px" src={SQL}></img>
-                    <div className="progressbar mx-auto mt-5">
-                        <div style={{width: '80%'}}></div>
-                    </div>
                 </div>
                 <div className="col mx-auto mobile-skills">
                     <img height="130px" width="130px" src={GIT}></img>
-                    <div className="progressbar mx-auto mt-5">
-                        <div style={{width: '85%'}}></div>
-                    </div>
                 </div>
             </div>
             <div className="row mt-5 mx-auto">
                 <div className="col mx-auto">
                         <img height="130px" width="130px" src={PERL}></img>
-                        <div className="progressbar mx-auto mt-5">
-                            <div style={{width: '40%'}}></div>
-                        </div>
                 </div>
                 <div className="col mx-auto">
                     <img height="130px" width="95px" src={CSS}></img>
-                    <div className="progressbar mx-auto mt-5">
-                        <div style={{width: '80%'}}></div>
-                    </div>
                 </div>
                 <div className="col mx-auto mobile-skills">
                     <img height="130px" width="130px" src={HTML}></img>
-                    <div className="progressbar mx-auto mt-5">
-                        <div style={{width: '90%'}}></div>
-                    </div>
                 </div>
                 <div className="col mx-auto mobile-skills">
                     <img height="130px" width="130px" src={JS}></img>
-                    <div className="progressbar mx-auto mt-5">
-                        <div style={{width: '80%'}}></div>
-                    </div>
                 </div>
             </div>
         </div>
