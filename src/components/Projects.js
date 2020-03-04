@@ -71,7 +71,7 @@ class Projects extends Component {
        ' interface where the user can either view details about the pre-selected movie options, or do a search for details' +
         ' about the movie of their choice.',
       title:'CINEMA GURU',
-      gif: MOVIES,
+      gif: 'https://media.giphy.com/media/lowDB5iWzqXMcHvEqO/giphy.gif',
       gitlink:'https://github.com/denniskrup/MovieApp'
   }
   ]
