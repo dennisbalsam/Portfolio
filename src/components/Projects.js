@@ -1,8 +1,5 @@
 
 import React, {Component} from 'react';
-import SPORTSHUB from '../images/sportshub-gif.gif'
-import YELP from '../images/yelpAPP.gif'
-import MOVIES from '../images/movieApp.gif'
 import GIT from '../images/git.png'
 import MLPHOTOS from '../images/flowers.PNG'
 import OUTLOOK from '../images/outlooklogo.jpg'
@@ -28,7 +25,7 @@ class Projects extends Component {
           ' are able to view stats, highlights, standings, etc about multiple sports. They are able to see what upcoming games' +
            ' are scheduled by sport and allowed the opportunity to place a wager on that team. The user is able to deposit funds' +
             ' into their account, and also view bets they have placed.',
-        gif: SPORTSHUB,
+        gif: 'https://media.giphy.com/media/hWFRPWuzUWLuzCzEag/giphy.gif',
         gitlink:'https://github.com/denniskrup/sportshub'
     },
     {
@@ -39,7 +36,7 @@ class Projects extends Component {
            ' page returns the selected business details, the maps location and an option to store it to the Google users' +
             ' favorites.',
         title:'WISH DISH',
-        gif: YELP,
+        gif: 'https://media.giphy.com/media/PiuVKPUcBD1Q2iEdK9/giphy.gif',
         gitlink:'https://github.com/denniskrup/yelpAPI-APP'
         
     },
