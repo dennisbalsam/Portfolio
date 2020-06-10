@@ -3,7 +3,6 @@ import Resume from '../images/DennisKResume.pdf'
 import ResumeLogo from '../images/resumelogo.png'
 import GIT from '../images/git.png'
 import LinkedIN from '../images/linkedinlogo.png'
-import Email from '../images/emaillogo.png'
 export default function Contact() {
     return (
         <div id="contact" style={{marginBottom: '100px'}}>

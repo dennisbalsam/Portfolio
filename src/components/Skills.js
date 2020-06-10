@@ -11,8 +11,8 @@ import PERL from '../images/perllogo.png'
 import GIT from '../images/gitlogo.png'
 import HTML from '../images/htmllogo.png'
 import JS from '../images/jslogo.png'
-
-
+import Node from '../images/nodejs.png'
+import Swift from '../images/Swift.png'
 export default function Skills() {
 
 
@@ -69,6 +69,15 @@ export default function Skills() {
                 <div className="col mx-auto mobile-skills">
                     <img height="130px" width="130px" src={JS}></img>
                 </div>
+            </div>
+            <div className="row mt-5 mx-auto">
+                <div className="col mx-auto">
+                        <img height="130px" width="130px" src={Node}></img>
+                </div>
+                <div className="col mx-auto">
+                    <img height="130px" width="95px" src={Swift}></img>
+                </div>
+              
             </div>
         </div>
     )
