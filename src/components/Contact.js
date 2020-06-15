@@ -14,7 +14,7 @@ export default function Contact() {
             <div className="mt-5 ml-4">
                 <a target="_blank" href="https://github.com/denniskrup"><input type="image" height="80px" src={GIT} alt="Open Link"/></a>
                 <a target="_blank" style={{marginRight: '-20px', outline: 'none'}}href="https://www.linkedin.com/in/dennis-krupitsky-481168182/"><input type="image" height="90px" src={LinkedIN} alt="Open Link"/></a>
-                <a target="_blank" href={Resume}><input height="90px" type="image" src={ResumeLogo} alt="Open Link"/></a>
+                <a target="_blank" href="https://github.com/denniskrup/Resume/blob/master/DennisKResume.pdf"><input height="90px" type="image" src={ResumeLogo} alt="Open Link"/></a>
             </div>
         </div>
     )
